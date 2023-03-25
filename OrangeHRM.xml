@@ -1,0 +1,79 @@
+<suite name="OrangeHRM Test Suite">
+
+<test name="Admin login with Valid Data">
+    <classes>
+            <class name="testCases.OHRM.TC_LP_00CheckAdminLoginWithValidData"></class>
+   </classes>
+</test>
+
+
+<!--  
+<test name="Admin login with Invalid Data">
+       <parameter name="uid" value="Sanket"></parameter>
+       <parameter name="pass" value="sanket123!@#"></parameter>
+
+    <classes>
+            <class name="testCases.OHRM.TC_LP_01CheckAdminLoginWithInvalidData"></class>
+   </classes>
+</test>
+
+-->
+
+<test name="Employee login with Valid Data">
+
+       <parameter name="Fname" value="Sujeet"></parameter>
+       <parameter name="Lname" value="Bramhanand"></parameter>
+
+    <classes>
+            <class name="testCases.OHRM.TC_EP_00CheckEmpLoginWithValidData"></class>
+   </classes>
+</test>
+
+
+<!--  
+<test name="Add User with Valid Data">
+       <parameter name="role" value="ESS"></parameter>
+       <parameter name="epname" value="Sujeet Bramhanand"></parameter>
+       <parameter name="user" value="SujBramha"></parameter>
+       <parameter name="upass" value="Sujeet123!@#"></parameter>
+       
+    <classes>
+            <class name="testCases.OHRM.TC_UP_00CheckAddingUserWithValidInput"></class>
+   </classes>
+</test>
+-->
+
+<!--  
+  <test name="User Module Displayed login Test">
+      <parameter name="uuid" value="SujBramha"></parameter>
+      <parameter name="upass" value="Sujeet123!@#"></parameter>
+    <classes>
+              <class name="testCases.OHRM.TC_EP_01CheckEmpModuleLoginIsDisplyed"></class>
+
+    </classes>
+  </test>
+  
+  <test name="Employee Leave Genrating Test">
+
+      <parameter name="empname" value="Sujeet Bramhanand"></parameter>
+      <parameter name="leavetype" value="2"></parameter>
+      <parameter name="fromdate" value="2023-03-10"></parameter>
+      <parameter name="todate" value="2023-03-12"></parameter>
+    <classes>
+            <class name="testCases.OHRM.TC_EP_02CheckEmpLeavesGenrated" ></class>
+   </classes>
+ </test>
+ 
+ 
+ <test name="User Able To Add Personal Details">
+ <parameter name="Mname" value="Shankar"></parameter>
+ <parameter name="Oid" value="OHRM301993"></parameter>
+ <parameter name="ExDate" value="2025-07-20"></parameter>
+ <parameter name="Mstatus" value="Single"></parameter>
+ <parameter name="Nationality" value="Indian"></parameter>
+    <classes>
+           <class name="testCases.OHRM.TC_UP_01AddUsersPersonalDataTest"></class>
+    </classes>
+ </test>
+  -->
+</suite>

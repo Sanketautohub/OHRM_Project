@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite]">
+  <test thread-count="5" name="User Able To Add Personal Details(failed)">
+    <parameter name="uid" value="SujBramha"/>
+    <parameter name="Mstatus" value="Single"/>
+    <parameter name="pass" value="Sujeet123!@#"/>
+    <parameter name="DOB" value="1991-05-12"/>
+    <parameter name="Mname" value="Shankar"/>
+    <parameter name="ExDate" value="2025-07-20"/>
+    <parameter name="Oid" value="OHRM301993"/>
+    <parameter name="Nationality" value="Indian"/>
+    <classes>
+      <class name="testCases.OHRM.TC_UP_01AddUsersPersonalDataTest">
+        <methods>
+          <include name="addUserPersonalDetails" invocation-numbers="0"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- testCases.OHRM.TC_UP_01AddUsersPersonalDataTest -->
+    </classes>
+  </test> <!-- User Able To Add Personal Details(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->
